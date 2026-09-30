@@ -1,7 +1,7 @@
 # GAD
 
 <p align="left">
-  <img src="./gad.svg" alt="Terminal: vim open on man gad" width="740" />
+  <img src="https://raw.githubusercontent.com/GvozdevAD/GvozdevAD/main/gad.svg" alt="Terminal: vim open on man gad" width="740" />
 </p>
 
 ```
