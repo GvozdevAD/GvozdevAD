@@ -1,5 +1,5 @@
 <p align="left">
-  <img src="https://raw.githubusercontent.com/GvozdevAD/GvozdevAD/main/gad.svg?v=22" alt="Terminal: vim open on man gad — handle, not a compliment. Backend/platform glue. See pinned repositories." width="900" />
+  <img src="https://raw.githubusercontent.com/GvozdevAD/GvozdevAD/main/gad.svg?v=24" alt="Terminal: vim open on man gad — handle, not a compliment. Backend/platform glue. See pinned repositories." width="900" />
 </p>
 
 <p align="left">

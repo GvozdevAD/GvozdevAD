@@ -2,8 +2,8 @@
 <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="900" height="560" viewBox="0 0 900 560" role="img" aria-label="macOS desktop with Alacritty menu bar at Y2038 UTC end and a vim terminal open on man gad">
   <defs>
     <style>
-      .bg { fill: #1e1e2e; fill-opacity: 0.72; }
-      .titlebar { fill: #181825; fill-opacity: 0.84; }
+      .bg { fill: #1e1e2e; fill-opacity: 0.82; }
+      .titlebar { fill: #181825; fill-opacity: 0.90; }
       .border { fill: none; stroke: #45475a; stroke-width: 1; stroke-opacity: 0.8; }
       .dot-r { fill: #f38ba8; }
       .dot-y { fill: #f9e2af; }
@@ -12,7 +12,7 @@
       .line { fill: #cdd6f4; font: 11px ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace; }
       .dim { fill: #6c7086; font: 11px ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace; }
       .accent { fill: #89b4fa; font: 11px ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace; }
-      .status { fill: #11111b; fill-opacity: 0.9; }
+      .status { fill: #11111b; fill-opacity: 0.94; }
       .status-mode { fill: #a6e3a1; }
       .status-fg { fill: #11111b; font: 10.5px ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace; font-weight: 700; }
       .status-right { fill: #a6adc8; font: 10.5px ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace; }
@@ -88,7 +88,7 @@
         <text class="dim" x="24" y="168">SEE ALSO</text>
 
         <text class="gutter" x="0" y="182">14</text>
-        <text class="line" x="24" y="182">&#160;&#160;&#160;&#160;pinned repositories above</text>
+        <text class="line" x="24" y="182">&#160;&#160;&#160;&#160;pinned repositories below</text>
 
         <text class="gutter" x="0" y="196">15</text>
 
