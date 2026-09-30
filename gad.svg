@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="740" height="460" viewBox="0 0 740 460" role="img" aria-label="Terminal window with vim open on man gad">
+<svg xmlns="http://www.w3.org/2000/svg" width="740" height="500" viewBox="0 0 740 500" role="img" aria-label="Terminal window with vim open on man gad">
   <defs>
     <style>
       .bg { fill: #1e1e2e; }
@@ -12,7 +12,7 @@
       .dim { fill: #6c7086; font: 13px ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace; }
       .accent { fill: #89b4fa; font: 13px ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace; }
       .status { fill: #11111b; }
-      .status-mode { fill: #89b4fa; }
+      .status-mode { fill: #a6e3a1; }
       .status-fg { fill: #11111b; font: 12px ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace; font-weight: 700; }
       .status-right { fill: #a6adc8; font: 12px ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace; }
       .gutter { fill: #45475a; font: 12px ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace; }
@@ -21,81 +21,86 @@
   </defs>
 
   <!-- window -->
-  <rect class="bg" x="0.5" y="0.5" width="739" height="459" rx="10" ry="10"/>
-  <rect class="border" x="0.5" y="0.5" width="739" height="459" rx="10" ry="10"/>
+  <rect class="bg" x="0.5" y="0.5" width="739" height="499" rx="10" ry="10"/>
+  <rect class="border" x="0.5" y="0.5" width="739" height="499" rx="10" ry="10"/>
 
   <!-- titlebar -->
   <path class="titlebar" d="M0.5,10.5 A10,10 0 0 1 10.5,0.5 H729.5 A10,10 0 0 1 739.5,10.5 V36 H0.5 Z"/>
   <circle class="dot-r" cx="22" cy="18" r="5"/>
   <circle class="dot-y" cx="40" cy="18" r="5"/>
   <circle class="dot-g" cx="58" cy="18" r="5"/>
-  <text class="title" x="370" y="22" text-anchor="middle">gad@moscow: ~/man  vim GAD.1</text>
+  <text class="title" x="370" y="22" text-anchor="middle">gad@moscow: ~/man - vim GAD.1</text>
 
   <!-- gutter + buffer -->
   <g transform="translate(18, 54)">
     <text class="gutter" x="0" y="0"> 1</text>
-    <text class="accent" x="36" y="0">GAD(1)                     User Commands                    GAD(1)</text>
+    <!-- man header as three columns (spaces collapse inside &lt;img&gt;) -->
+    <text class="accent" x="28" y="0">GAD(1)</text>
+    <text class="accent" x="360" y="0" text-anchor="middle">User Commands</text>
+    <text class="accent" x="700" y="0" text-anchor="end">GAD(1)</text>
 
     <text class="gutter" x="0" y="20"> 2</text>
 
     <text class="gutter" x="0" y="40"> 3</text>
-    <text class="dim" x="36" y="40">NAME</text>
+    <text class="dim" x="28" y="40">NAME</text>
 
     <text class="gutter" x="0" y="60"> 4</text>
-    <text class="line" x="36" y="60">    gad  handle, not a compliment</text>
+    <text class="line" x="28" y="60">&#160;&#160;&#160;&#160;gad - handle, not a compliment</text>
 
     <text class="gutter" x="0" y="80"> 5</text>
 
     <text class="gutter" x="0" y="100"> 6</text>
-    <text class="dim" x="36" y="100">SYNOPSIS</text>
+    <text class="dim" x="28" y="100">SYNOPSIS</text>
 
     <text class="gutter" x="0" y="120"> 7</text>
-    <text class="line" x="36" y="120">    backend | platform | glue between systems that refuse to talk</text>
+    <text class="line" x="28" y="120">&#160;&#160;&#160;&#160;backend | platform | glue between systems that refuse to talk</text>
 
     <text class="gutter" x="0" y="140"> 8</text>
 
     <text class="gutter" x="0" y="160"> 9</text>
-    <text class="dim" x="36" y="160">DESCRIPTION</text>
+    <text class="dim" x="28" y="160">DESCRIPTION</text>
 
     <text class="gutter" x="0" y="180">10</text>
-    <text class="line" x="36" y="180">    Async services, integrations, automation, occasional AI tooling.</text>
+    <text class="line" x="28" y="180">&#160;&#160;&#160;&#160;Async services, integrations, automation, occasional AI tooling.</text>
 
     <text class="gutter" x="0" y="200">11</text>
-    <text class="line" x="36" y="200">    Ships weird glue. Avoids LinkedIn energy.</text>
+    <text class="line" x="28" y="200">&#160;&#160;&#160;&#160;Ships weird glue. Avoids LinkedIn energy.</text>
 
     <text class="gutter" x="0" y="220">12</text>
 
     <text class="gutter" x="0" y="240">13</text>
-    <text class="dim" x="36" y="240">SEE ALSO</text>
+    <text class="dim" x="28" y="240">SEE ALSO</text>
 
     <text class="gutter" x="0" y="260">14</text>
-    <text class="line" x="36" y="260">    pinned repositories above</text>
+    <text class="line" x="28" y="260">&#160;&#160;&#160;&#160;pinned repositories above</text>
 
     <text class="gutter" x="0" y="280">15</text>
 
     <text class="gutter" x="0" y="300">16</text>
-    <text class="dim" x="36" y="300">BUGS</text>
+    <text class="dim" x="28" y="300">BUGS</text>
 
     <text class="gutter" x="0" y="320">17</text>
-    <text class="line" x="36" y="320">    This file keeps getting read as a resume.</text>
+    <text class="line" x="28" y="320">&#160;&#160;&#160;&#160;This file keeps getting read as a resume.</text>
 
     <text class="gutter" x="0" y="340">18</text>
-    <text class="line" x="36" y="340">    Expected behavior: open a repo instead.</text>
+    <text class="line" x="28" y="340">&#160;&#160;&#160;&#160;Expected behavior: open a repo instead.</text>
 
     <text class="gutter" x="0" y="360">19</text>
 
     <text class="gutter" x="0" y="380">20</text>
-    <text class="accent" x="36" y="380">GAD(1)                                                          Moscow</text>
+    <text class="accent" x="28" y="380">GAD(1)</text>
+    <text class="accent" x="700" y="380" text-anchor="end">Moscow</text>
 
-    <!-- block cursor on last line -->
-    <rect class="cursor" x="36" y="368" width="8" height="14"/>
+    <text class="gutter" x="0" y="400">21</text>
+    <!-- insert cursor on line 21 -->
+    <rect class="cursor" x="28" y="388" width="2" height="14"/>
   </g>
 
-  <!-- vim statusline -->
-  <rect class="status" x="1" y="432" width="738" height="27"/>
-  <rect class="status-mode" x="1" y="432" width="88" height="27"/>
-  <text class="status-fg" x="14" y="450">NORMAL</text>
-  <text class="status-right" x="106" y="450">GAD.1</text>
-  <text class="status-right" x="620" y="450">unix | utf-8</text>
-  <text class="status-right" x="710" y="450">100%</text>
+  <!-- vim statusline: INSERT mode, no cramped percent -->
+  <path class="status" d="M0.5,472 H739.5 V489.5 A10,10 0 0 1 729.5,499.5 H10.5 A10,10 0 0 1 0.5,489.5 Z"/>
+  <path class="status-mode" d="M0.5,472 H122 V499.5 H10.5 A10,10 0 0 1 0.5,489.5 Z"/>
+  <text class="status-fg" x="12" y="490">-- INSERT --</text>
+  <text class="status-right" x="136" y="490">GAD.1</text>
+  <text class="status-right" x="640" y="490">21,1</text>
+  <text class="status-right" x="700" y="490">All</text>
 </svg>

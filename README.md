@@ -8,7 +8,7 @@
 GAD(1)                     User Commands                    GAD(1)
 
 NAME
-    gad — handle, not a compliment
+    gad - handle, not a compliment
 
 SYNOPSIS
     backend | platform | glue between systems that refuse to talk
