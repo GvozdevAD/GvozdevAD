@@ -1,11 +1,14 @@
 # GAD
 
+<p align="left">
+  <img src="./gad.svg" alt="Terminal: vim open on man gad" width="740" />
+</p>
+
 ```
 GAD(1)                     User Commands                    GAD(1)
 
 NAME
     gad — handle, not a compliment
-            (from Russian «гад»; abbreviation first)
 
 SYNOPSIS
     backend | platform | glue between systems that refuse to talk
